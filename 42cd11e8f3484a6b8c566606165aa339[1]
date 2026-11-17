@@ -1,0 +1,78 @@
+<!doctype html><html lang="en-US"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
+<meta name="theme-color" content="#243b64"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="robots" content="noindex"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Sleep log"><meta name="referrer" content="no-referrer"><meta name="description" content=""><title>Sleep log</title>
+<meta property="og:type" content="website"><meta property="og:site_name" content="FlutterFlow"><meta property="og:title" content="Sleep log"><meta property="og:description" content="Sleep log is an app shared with you. Open the link to try it in your browser."><meta property="og:url" content="https://42cd11e8f3484a6b8c566606165aa339-share.flutterflow.cloud/s/42cd11e8f3484a6b8c566606165aa339/?key=ATVilprkEsmC2k_rafymk-NjM4H7x4wVo99Wl14XaH0"><meta property="og:image" content="https://42cd11e8f3484a6b8c566606165aa339-share.flutterflow.cloud/s/42cd11e8f3484a6b8c566606165aa339/showcase.png?b=b_mwakwqml_3g0f712f"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Sleep log: screens of the app"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Sleep log"><meta name="twitter:description" content="Sleep log is an app shared with you. Open the link to try it in your browser."><meta name="twitter:image" content="https://42cd11e8f3484a6b8c566606165aa339-share.flutterflow.cloud/s/42cd11e8f3484a6b8c566606165aa339/showcase.png?b=b_mwakwqml_3g0f712f"><meta name="twitter:image:alt" content="Sleep log: screens of the app">
+<link rel="modulepreload" href="/s/42cd11e8f3484a6b8c566606165aa339/viewer.js?v=7887a9d091dcf472"><link rel="modulepreload" href="/s/42cd11e8f3484a6b8c566606165aa339/device-frame.js?v=7887a9d091dcf472" media="(min-width: 768px) and (hover: hover) and (pointer: fine)"><link rel="preload" as="image" href="/s/42cd11e8f3484a6b8c566606165aa339/icon.png?rev=b90ca6c72f248c10">
+<link rel="manifest" href="/s/42cd11e8f3484a6b8c566606165aa339/manifest.webmanifest" crossorigin="use-credentials"><link rel="apple-touch-icon" sizes="1024x1024" href="/s/42cd11e8f3484a6b8c566606165aa339/icon.png?rev=b90ca6c72f248c10"><link rel="icon" type="image/png" href="/s/42cd11e8f3484a6b8c566606165aa339/icon.png?rev=b90ca6c72f248c10">
+<style id="app-identity-style">:root{--theme:#243b64;--ink:#ffffff}@media(prefers-color-scheme:dark){:root{--theme:#243b64;--ink:#ffffff}}</style>
+<style>
+:root{color-scheme:light dark}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--theme);font:16px system-ui,sans-serif;color:var(--ink)}
+/* An installed iOS 26 app's layout viewport is short by the status bar and clips fixed content there; a 100vh document restores the full screen. */
+@media (display-mode: standalone){html,body{height:100vh}}
+#device{position:fixed;inset:0}#device-screen{container-type:inline-size;position:absolute;inset:0;overflow:hidden;background:var(--theme)}#device-hardware,#device-chrome{display:none;position:absolute;inset:0;pointer-events:none}#device.framed #device-hardware,#device.framed #device-chrome{display:block}#device-chrome{z-index:11}#app{position:absolute;inset:0}#launch{position:absolute;inset:0;z-index:10;display:grid;grid-template-rows:minmax(0,1fr) auto minmax(0,1fr);justify-items:center;text-align:center;color:var(--ink);background:var(--theme);transition:opacity .18s}#launch.done{opacity:0;pointer-events:none}body.settling #launch{opacity:0;transition:none}#launch .app-launch-icon{box-shadow:none;opacity:0;transition:opacity .25s}#launch .app-launch-icon.loaded{opacity:1}
+h1,h2{font-size:20px;margin:0}p{max-width:340px;line-height:1.5;margin:0;color:inherit}
+a,button{font:inherit;border:1px solid #ffffff70;border-radius:12px;background:#ffffff18;color:white;padding:12px 20px;text-decoration:none;cursor:pointer}a:focus-visible,button:focus-visible{outline:3px solid white;outline-offset:3px}[hidden]{display:none!important}
+#insets{position:fixed;visibility:hidden;pointer-events:none;width:100vw;height:100vh;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+#install{position:fixed;z-index:11;top:max(8px,env(safe-area-inset-top));right:max(8px,env(safe-area-inset-right));display:flex;align-items:center;height:30px;border:1px solid #ffffff40;border-radius:15px;background:#15181ecc;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 2px 12px #0004;font-size:13px;line-height:1}
+#install button{border:0;background:transparent;padding:0 10px;height:100%;font-size:inherit;line-height:inherit;white-space:nowrap;color:white}#install-open{display:flex;align-items:center;gap:6px;padding-left:9px}#install-open svg{width:13px;height:13px;flex:none}#install-dismiss{padding:0 9px 0 7px;border-left:1px solid #ffffff30!important;border-radius:0 15px 15px 0;color:#ffffffb0}
+#runtime{position:fixed;z-index:11;left:max(8px,env(safe-area-inset-left));bottom:max(8px,env(safe-area-inset-bottom));padding:0;width:28px;height:28px;display:grid;place-items:center;border:0;background:#15181e99;border-radius:50%;color:#a5acb8}#runtime[data-runtime="optimized"]{color:#9bce84}#runtime-dot{width:7px;height:7px;border-radius:50%;background:currentColor;box-shadow:0 0 0 3px #ffffff0a}#runtime-label{position:absolute;bottom:36px;left:0;width:max-content;max-width:230px;padding:8px 10px;border-radius:10px;background:#15181e;color:white;font-size:12px;box-shadow:0 4px 20px #0004;visibility:hidden}#runtime:focus-visible #runtime-label,#runtime[aria-expanded="true"] #runtime-label{visibility:visible}@media(hover:hover){#runtime:hover #runtime-label{visibility:visible}}
+
+.app-launch-brand{position:absolute;left:8%;top:50%;width:84%;transform:translateY(-50%);display:flex;align-items:center;flex-direction:column;gap:5cqw;text-align:center;font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:inherit}
+.app-launch-icon{width:18cqw;max-width:88px;aspect-ratio:1;border-radius:23%;object-fit:cover;box-shadow:inset 0 0 0 1px #ffffff30}
+.app-launch-name{font:400 min(5.22cqw,22px)/1.3 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;margin:0;overflow-wrap:anywhere;max-width:100%}
+
+#launch a,#launch button{color:inherit;border-color:currentColor}#launch a:focus-visible,#launch button:focus-visible{outline-color:currentColor}
+/* The brand keeps its centred place from launchStyles as the middle grid row, so the note can sit right under it. */
+#launch .app-launch-brand{position:relative;left:auto;top:auto;transform:none;grid-row:2}
+#note{grid-row:3;align-self:start;display:flex;flex-direction:column;align-items:center;gap:14px;margin-top:26px;padding:0 24px;font-size:15px;opacity:0;transition:opacity .2s ease-out}#launch.noted #note{opacity:1}#message{opacity:.62}#launch.failed #message{opacity:1}
+/* Still waiting after a moment: the app's name breathes. */
+#launch.waiting .app-launch-name{animation:breathe 1.6s ease-in-out infinite}
+
+#install-help,#android-help{max-width:min(380px,calc(100% - 32px));padding:24px;border:1px solid #ffffff50;border-radius:20px;background:#15181e;color:white}
+#install-help::backdrop,#android-help::backdrop{background:#0008}#install-help p{margin:16px 0 24px}
+#android-download{display:block;margin:18px 0 20px;text-align:center;font-weight:600;background:white;color:#15181e;border-color:white}
+#android-steps{margin:0;padding-left:22px;display:grid;gap:10px;font-size:15px;line-height:1.45}
+#android-help #android-protect{margin:16px 0 22px;font-size:13px;opacity:.7;max-width:none}
+#android-actions{display:flex;justify-content:flex-end}
+#install-help.chrome{inset:0;margin:0;width:100%;height:100dvh;max-width:none;max-height:none;border:0;border-radius:0;padding:max(24px,env(safe-area-inset-top)) 24px max(16px,env(safe-area-inset-bottom));overflow:auto}
+#install-help.chrome h2{font-size:28px;max-width:280px;margin-top:48px;line-height:1.15}
+#install-share-arrow{position:absolute;top:8px;right:24px;font-size:48px;line-height:1}
+#install-help.bottom #install-share-arrow{top:auto;bottom:8px;transform:rotate(90deg)}
+#install-help.chrome #install-footer{position:absolute;bottom:max(16px,env(safe-area-inset-bottom));left:24px;right:24px}
+#install-next{font-size:14px;padding:10px 12px}#install-bar{font-size:12px;padding:8px 10px}
+#install-help.chrome #install-close{min-height:44px;font-size:14px;padding:10px 16px}
+#install-actions{display:flex;justify-content:space-between;gap:8px;align-items:center}
+#install-more-heading{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:center}
+#install-more-heading strong{grid-column:1/4;font-size:24px}#install-more-heading span{justify-self:center;font-size:36px;line-height:1}
+#install-help #install-more p{font-size:16px;line-height:1.35;margin:4px 0 8px;max-width:none}
+#install-help.share-open{background:#eaf799;color:#171c0c}#install-help.share-open p{color:inherit}
+#install-help.share-open button{color:inherit;border-color:#171c0c66;background:transparent}
+@media(max-height:480px){#install-help.chrome #install-footer{position:static;margin-top:24px}}
+
+#upgrade{position:fixed;z-index:12;left:16px;right:16px;bottom:max(70px,env(safe-area-inset-bottom));margin:auto;max-width:440px;padding:16px;border:1px solid #ffffff50;border-radius:16px;background:#15181e;box-shadow:0 4px 20px #0004}#upgrade strong{display:block;margin-bottom:6px}#upgrade p{font-size:13px;margin-bottom:10px}#upgrade button{font-size:14px;padding:10px 14px}
+@keyframes breathe{50%{opacity:.55}}@media(prefers-reduced-motion:reduce){#launch,#note{transition:none}#launch.waiting .app-launch-name{animation:none}}
+</style></head><body class="settling">
+<div id="device"><div id="device-hardware" aria-hidden="true"></div><div id="device-screen"><div id="app" aria-label="Shared app"></div>
+<main id="launch" role="status" aria-live="polite"><div class="app-launch-brand"><img class="app-launch-icon" src="/s/42cd11e8f3484a6b8c566606165aa339/icon.png?rev=b90ca6c72f248c10" alt=""><h1 class="app-launch-name" id="title">Sleep log</h1></div><div id="note"><p id="message"></p><button id="retry" hidden>Try again</button></div></main>
+<div id="device-chrome" aria-hidden="true"></div></div></div><div id="insets"></div>
+<button id="runtime" hidden aria-expanded="false"><span id="runtime-dot" aria-hidden="true"></span><span id="runtime-label"></span></button>
+<aside id="install" aria-label="Install this app" hidden><button id="install-open"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 10V2M4.8 5.2 8 2l3.2 3.2"/><path d="M2.5 9.5v3A1.5 1.5 0 0 0 4 14h8a1.5 1.5 0 0 0 1.5-1.5v-3"/></svg>Install</button><button id="install-dismiss" aria-label="Dismiss install tip">×</button></aside>
+<dialog id="install-help" aria-labelledby="install-heading">
+<span id="install-share-arrow" aria-hidden="true" hidden>↗</span>
+<h2 id="install-heading">Install this app</h2>
+<p id="install-description">Tap Safari’s Share button, then choose Add to Home Screen. Keep Open as Web App enabled if it appears, then tap Add.</p>
+<button id="install-bar" hidden>Address bar at bottom</button>
+<div id="install-footer"><div id="install-more" hidden><div id="install-more-heading"><strong>Tap View More</strong><span aria-hidden="true">↑</span></div><p>Then <b>Add to Home Screen</b> → Add.<br>Swipe up in the list if needed.</p></div>
+<div id="install-actions"><button id="install-next" hidden>Preview next steps</button><button id="install-close">Got it</button></div></div>
+</dialog>
+<dialog id="android-help" aria-labelledby="android-heading">
+<h2 id="android-heading">Install this app</h2>
+<a id="android-download" download>Download the app</a>
+<ol id="android-steps"><li>Tap Download. If Chrome warns about the file, tap Download anyway.</li><li>Open the file when it finishes downloading.</li><li>If Android asks, allow installs from your browser, then tap Install.</li></ol>
+<p id="android-protect">If Play Protect warns, tap More details, then Install anyway.</p>
+<div id="android-actions"><button id="android-close">Close</button></div>
+</dialog>
+<aside id="upgrade" hidden aria-label="App update"><strong>Faster version ready</strong><p id="upgrade-detail">Switching reloads the app. Save any unfinished work first.</p><button id="upgrade-switch">Switch now</button> <button id="upgrade-later">Later</button></aside>
+<script id="app-launch-info" type="application/json">{"title":"Sleep log","themeColor":"#243b64","icon":"/s/42cd11e8f3484a6b8c566606165aa339/icon.png?rev=b90ca6c72f248c10","identity":{"name":"Sleep log","homeScreenName":"Sleep log","pageTitle":"Sleep log","description":"","locale":"en-US","themeColor":"#243b64","themeColorDark":"#243b64","support":{"email":"","url":""},"legal":{"privacyUrl":"","termsUrl":"","accountDeletionUrl":""}},"build":"/s/42cd11e8f3484a6b8c566606165aa339/builds/b_mwakwqml_3g0f712f","runtime":"https://api.flutterflow.cloud/v1/preview-runtime/6dccd61cd0ee5fd643d8d971","checkpoint":"f43f264dc4b26d55c0965932a7404fac31ab36d39b0ff9d85095f33b5e65a016","release":null}</script>
+<noscript>Enable JavaScript to open this app.</noscript><script type="module" src="/s/42cd11e8f3484a6b8c566606165aa339/viewer.js?v=7887a9d091dcf472"></script></body></html>
